@@ -92,8 +92,7 @@ h1, h2, #message, #finalMessage{
 
 #gif{
 	margin: 25px 125px;
-	height: 250px;
-	width: 250px;
+	width: 200px;
 }
 
 .instructions-hr {
