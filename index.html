@@ -1,11 +1,49 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Trivia Game</title>
-</head>
-<body>
 
+<head>
+    <meta charset="UTF-8">
+    <title>unCommon Knowledge Trivia</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Josefin+Sans|Droid+Sans" rel="stylesheet">
+    <link href="assets/css/reset.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/images/brain-icon.ico" rel="icon" type="image/x-icon" />
+</head>
+
+<body>
+    <header>
+        <div class="bar">
+            <p class="app-info">RCB Assignment | Trivia Game | Developed by Michael Wolf</p>
+        </div>
+        <img class="brain" src="assets/images/brain-icon.png">
+        <h1 class="title">Uncommon Knowledge Trivia</h1>
+    </header>
+    <div class='container'>
+        <div id="instructions">
+        <h1>Instructions:</h1>
+        <hr class="instructions-hr">
+        <h2>You will be challenged with a series of "uncommon knowledge" questions. You have 20 seconds to answer each question. Let's see how many you get right!</h2>
+        </div>
+        <button class='btn btn-primary' id='startBtn'>Start</button>
+        <!-- Question page -->
+        <div id=currentQuestion></div>
+        <div class='question'></div>
+        <div class='answerList'></div>
+        <h2 id=timeLeft></h2>
+        <!-- Answer Page -->
+        <h2 id=message></h2>
+        <div id=correctedAnswer></div>
+        <div id=gif></div>
+        <!-- Scoreboard -->
+        <h2 id=finalMessage></h2>
+        <div id=correctAnswers></div>
+        <div id=incorrectAnswers></div>
+        <div id=unanswered></div>
+        <div id='startOverBtn'></div>
+    </div>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
 </body>
+
 </html>
