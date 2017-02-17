@@ -12,6 +12,7 @@ header {
 	width:100%;
 	padding: 35px;
 }
+
 .bar {
     position: fixed;
     display: block;
@@ -56,6 +57,7 @@ h1.title {
 	padding: 15px 25px;
 	margin-top: 50px;
 }
+
 .btn-primary:hover, .reset:hover{
 	background-color: #202364;
 }
@@ -71,6 +73,7 @@ h1, h2, #message, #finalMessage{
 	font-family: Josefin Sans;
 	font-weight: bold;
 }
+
 .thisChoice {
 	padding:12px;
 	cursor: pointer;
@@ -90,8 +93,7 @@ h1, h2, #message, #finalMessage{
 #gif{
 	margin: 25px 125px;
 	height: 250px;
-	max-height: 250px;
-	width:  250px;
+	width: 250px;
 }
 
 .instructions-hr {
@@ -114,6 +116,7 @@ h1, h2, #message, #finalMessage{
 #startOverBtn {
 	cursor: pointer;
 }
+
 #message,
 #finalMessage, 
 #correctAnswers, 
